@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "isDemo": true,
+  "sourceFile": "vin_share_Desafio_02.xlsx",
+  "sourceSha256": "aea7a7a8ba6d9c61e14936ee2862755be4008a96c7c9fb3935bac269651f99e0",
+  "sourceSheet": "vin_share",
+  "vehicles": [
+    {
+      "id": "DEMO-001",
+      "isDemo": true,
+      "label": "Ford KA 2021 — exemplo",
+      "model": "KA",
+      "modelYear": 2021,
+      "sourceVinHash": "0002a2d7b0e64c34a5cd3fdc69c387d28128474230d89788e9d7652786698df5",
+      "vin": null,
+      "warrantyStartDate": "2020-11-09",
+      "history": [
+        {
+          "id": "DEMO-001-SERVICE-01",
+          "sourceRow": 471530,
+          "sourceMaintenanceId": "142461093",
+          "sourceServiceOrder": "5512",
+          "dealerCode": "5650",
+          "date": "2022-04-13",
+          "km": 20375,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "2"
+        },
+        {
+          "id": "DEMO-001-SERVICE-02",
+          "sourceRow": 222254,
+          "sourceMaintenanceId": "142928294",
+          "sourceServiceOrder": "9290",
+          "dealerCode": "5650",
+          "date": "2023-04-18",
+          "km": 40827,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "4"
+        },
+        {
+          "id": "DEMO-001-SERVICE-03",
+          "sourceRow": 228298,
+          "sourceMaintenanceId": "143103651",
+          "sourceServiceOrder": "10785",
+          "dealerCode": "5650",
+          "date": "2023-09-21",
+          "km": 50605,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "5"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-002",
+      "isDemo": true,
+      "label": "Ford ECOSPORT 2021 — exemplo",
+      "model": "ECOSPORT",
+      "modelYear": 2021,
+      "sourceVinHash": "00031d6a4d99a0ccf6222ea9beb894e562ec5749603d924f8076234564c286f8",
+      "vin": null,
+      "warrantyStartDate": "2021-01-15",
+      "history": [
+        {
+          "id": "DEMO-002-SERVICE-01",
+          "sourceRow": 182164,
+          "sourceMaintenanceId": "142435285",
+          "sourceServiceOrder": "64050",
+          "dealerCode": "6163",
+          "date": "2022-01-10",
+          "km": 10159,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "1"
+        },
+        {
+          "id": "DEMO-002-SERVICE-02",
+          "sourceRow": 553585,
+          "sourceMaintenanceId": "142820923",
+          "sourceServiceOrder": "77199",
+          "dealerCode": "6163",
+          "date": "2023-01-11",
+          "km": 18930,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "2"
+        },
+        {
+          "id": "DEMO-002-SERVICE-03",
+          "sourceRow": 567594,
+          "sourceMaintenanceId": "143248366",
+          "sourceServiceOrder": "88802",
+          "dealerCode": "6163",
+          "date": "2024-01-25",
+          "km": 30251,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "3"
+        },
+        {
+          "id": "DEMO-002-SERVICE-04",
+          "sourceRow": 576383,
+          "sourceMaintenanceId": "143646353",
+          "sourceServiceOrder": "99337",
+          "dealerCode": "6163",
+          "date": "2025-01-31",
+          "km": 42737,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "4"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-003",
+      "isDemo": true,
+      "label": "Ford RANGER 2023 — exemplo",
+      "model": "RANGER",
+      "modelYear": 2023,
+      "sourceVinHash": "0006155105658b4642f01f31ba659862c27ec6579cef29361a07b063dd773d64",
+      "vin": null,
+      "warrantyStartDate": "2022-09-28",
+      "history": [
+        {
+          "id": "DEMO-003-SERVICE-01",
+          "sourceRow": 40638,
+          "sourceMaintenanceId": "142926254",
+          "sourceServiceOrder": "72525",
+          "dealerCode": "1033",
+          "date": "2023-04-10",
+          "km": 9722,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "1"
+        },
+        {
+          "id": "DEMO-003-SERVICE-02",
+          "sourceRow": 204383,
+          "sourceMaintenanceId": "143172791",
+          "sourceServiceOrder": "77197",
+          "dealerCode": "1033",
+          "date": "2023-11-20",
+          "km": 19393,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "2"
+        },
+        {
+          "id": "DEMO-003-SERVICE-03",
+          "sourceRow": 73868,
+          "sourceMaintenanceId": "143459218",
+          "sourceServiceOrder": "82664",
+          "dealerCode": "1033",
+          "date": "2024-08-12",
+          "km": 30112,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "3"
+        },
+        {
+          "id": "DEMO-003-SERVICE-04",
+          "sourceRow": 576537,
+          "sourceMaintenanceId": "143690000",
+          "sourceServiceOrder": "86173",
+          "dealerCode": "1033",
+          "date": "2025-03-13",
+          "km": 39713,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "4"
+        },
+        {
+          "id": "DEMO-003-SERVICE-05",
+          "sourceRow": 338551,
+          "sourceMaintenanceId": "143971982",
+          "sourceServiceOrder": "89283",
+          "dealerCode": "1033",
+          "date": "2025-11-11",
+          "km": 49947,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "5"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-004",
+      "isDemo": true,
+      "label": "Ford BRONCO SPORT 2021 — exemplo",
+      "model": "BRONCO SPORT",
+      "modelYear": 2021,
+      "sourceVinHash": "00863954b0af96608d0b9c1349ff89ea7b13047869fa47c2031dc7638eaa0d81",
+      "vin": null,
+      "warrantyStartDate": "2021-09-30",
+      "history": [
+        {
+          "id": "DEMO-004-SERVICE-01",
+          "sourceRow": 116615,
+          "sourceMaintenanceId": "142390564",
+          "sourceServiceOrder": "341961",
+          "dealerCode": "1105",
+          "date": "2022-01-07",
+          "km": 8175,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "1"
+        },
+        {
+          "id": "DEMO-004-SERVICE-02",
+          "sourceRow": 54860,
+          "sourceMaintenanceId": "142390565",
+          "sourceServiceOrder": "25872",
+          "dealerCode": "1054",
+          "date": "2022-02-03",
+          "km": 19210,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "2"
+        },
+        {
+          "id": "DEMO-004-SERVICE-03",
+          "sourceRow": 376321,
+          "sourceMaintenanceId": "142666994",
+          "sourceServiceOrder": "49535",
+          "dealerCode": "1605",
+          "date": "2022-08-30",
+          "km": 29839,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "3"
+        },
+        {
+          "id": "DEMO-004-SERVICE-04",
+          "sourceRow": 363496,
+          "sourceMaintenanceId": "142853137",
+          "sourceServiceOrder": "35859",
+          "dealerCode": "1054",
+          "date": "2023-02-08",
+          "km": 39648,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "4"
+        },
+        {
+          "id": "DEMO-004-SERVICE-05",
+          "sourceRow": 376320,
+          "sourceMaintenanceId": "142968334",
+          "sourceServiceOrder": "54627",
+          "dealerCode": "1605",
+          "date": "2023-05-23",
+          "km": 50170,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "5"
+        },
+        {
+          "id": "DEMO-004-SERVICE-06",
+          "sourceRow": 274590,
+          "sourceMaintenanceId": "143348696",
+          "sourceServiceOrder": "47381",
+          "dealerCode": "1054",
+          "date": "2024-04-29",
+          "km": 52686,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "6"
+        },
+        {
+          "id": "DEMO-004-SERVICE-07",
+          "sourceRow": 586610,
+          "sourceMaintenanceId": "143742857",
+          "sourceServiceOrder": "55523",
+          "dealerCode": "1054",
+          "date": "2025-04-23",
+          "km": 63619,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "7"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-005",
+      "isDemo": true,
+      "label": "Ford F-150 2023 — exemplo",
+      "model": "F-150",
+      "modelYear": 2023,
+      "sourceVinHash": "00148a28d17d92f438bef04b28b0d30bd8cbbf860f75a74af66529cf276db99d",
+      "vin": null,
+      "warrantyStartDate": "2023-12-09",
+      "history": [
+        {
+          "id": "DEMO-005-SERVICE-01",
+          "sourceRow": 418678,
+          "sourceMaintenanceId": "143283417",
+          "sourceServiceOrder": "40662",
+          "dealerCode": "4090",
+          "date": "2024-02-27",
+          "km": 13405,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "1"
+        },
+        {
+          "id": "DEMO-005-SERVICE-02",
+          "sourceRow": 144061,
+          "sourceMaintenanceId": "143380977",
+          "sourceServiceOrder": "41294",
+          "dealerCode": "4090",
+          "date": "2024-05-31",
+          "km": 27154,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "2"
+        },
+        {
+          "id": "DEMO-005-SERVICE-03",
+          "sourceRow": 568724,
+          "sourceMaintenanceId": "143492679",
+          "sourceServiceOrder": "41957",
+          "dealerCode": "4090",
+          "date": "2024-09-11",
+          "km": 39505,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "3"
+        },
+        {
+          "id": "DEMO-005-SERVICE-04",
+          "sourceRow": 225291,
+          "sourceMaintenanceId": "143627496",
+          "sourceServiceOrder": "42830",
+          "dealerCode": "4090",
+          "date": "2025-01-14",
+          "km": 51520,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "4"
+        },
+        {
+          "id": "DEMO-005-SERVICE-05",
+          "sourceRow": 86552,
+          "sourceMaintenanceId": "143719814",
+          "sourceServiceOrder": "43447",
+          "dealerCode": "4090",
+          "date": "2025-04-04",
+          "km": 65951,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "5"
+        },
+        {
+          "id": "DEMO-005-SERVICE-06",
+          "sourceRow": 519018,
+          "sourceMaintenanceId": "143827277",
+          "sourceServiceOrder": "44188",
+          "dealerCode": "4090",
+          "date": "2025-07-08",
+          "km": 79384,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "6"
+        },
+        {
+          "id": "DEMO-005-SERVICE-07",
+          "sourceRow": 418679,
+          "sourceMaintenanceId": "143974924",
+          "sourceServiceOrder": "45148",
+          "dealerCode": "4090",
+          "date": "2025-10-27",
+          "km": 89617,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "7"
+        },
+        {
+          "id": "DEMO-005-SERVICE-08",
+          "sourceRow": 588502,
+          "sourceMaintenanceId": "144009127",
+          "sourceServiceOrder": "45504",
+          "dealerCode": "4090",
+          "date": "2025-12-11",
+          "km": 102490,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "8"
+        },
+        {
+          "id": "DEMO-005-SERVICE-09",
+          "sourceRow": 155826,
+          "sourceMaintenanceId": "144133172",
+          "sourceServiceOrder": "46168",
+          "dealerCode": "4090",
+          "date": "2026-03-17",
+          "km": 114549,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "9"
+        },
+        {
+          "id": "DEMO-005-SERVICE-10",
+          "sourceRow": 266787,
+          "sourceMaintenanceId": "144175560",
+          "sourceServiceOrder": "46472",
+          "dealerCode": "4090",
+          "date": "2026-04-27",
+          "km": 128097,
+          "status": "(60) Concluded",
+          "type": "Maintenance",
+          "maintenanceNumber": "10"
+        }
+      ]
+    }
+  ]
+}
