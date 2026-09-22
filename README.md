@@ -1,17 +1,11 @@
-# WeFord — Sprint 3, etapa 3
+# WeFord — Sprint 3
 
 Carteira de pontos, níveis, extrato e resgates conectados ao histórico VIN Share. Contas e veículos da etapa anterior são preservados. Ainda não é o APK final.
 
 ## Atualizar a versão já instalada
 
-Pare o Expo e copie as pastas `app`, `src`, `tests`, `docs` e o `README.md` desta entrega para a pasta do projeto, substituindo os arquivos correspondentes. Mantenha seu `package-lock.json` e as dependências instaladas: não há dependências novas nesta etapa.
 
-```bash
-npm test
-npx expo start -c
-```
 
-Se extrair em uma pasta nova, execute `npm install` primeiro. O `package.json` e os demais JSONs foram validados e começam com `{`. A migração pressupõe o mesmo armazenamento local, navegador/origem ou instalação. O nome, slug e as chaves anteriores não mudaram.
 
 ## O que está funcionando no código
 
@@ -23,7 +17,6 @@ Se extrair em uma pasta nova, execute `npm install` primeiro. O `package.json` e
 - Proteção das telas de extrato e comprovantes pelo login.
 - Estados de carregamento, erro, nova tentativa, saldo insuficiente e ausência de movimentações.
 
-O saldo fixo de 12.450 foi removido. As contas recebem somente os pontos elegíveis da nova carteira. O crédito inicial é calculado a partir do exemplo atualmente associado, inclusive se ele foi cadastrado na etapa anterior.
 
 ## Regras de fidelidade do projeto
 
@@ -56,7 +49,7 @@ O app continua local: essas proteções não substituem transações e autoriza�
 
 ## Teste recomendado no Expo
 
-Use uma conta sem carteira anterior:
+Crie um login novo:
 
 1. Selecione a Ranger 2023 em Veículos. Em Home/Prêmios, confira **5.000 pontos e Gold**.
 2. Abra o extrato: devem existir cinco créditos de 1.000 pontos. A data de manutenção vem da fonte; a data de crédito é a data da importação para a carteira.
@@ -69,28 +62,3 @@ Use uma conta sem carteira anterior:
 9. Com uma conta que tenha somente veículo manual, confira saldo zero e extrato vazio.
 10. Saia e tente voltar às telas de extrato/comprovantes pelo histórico de navegação: elas devem exigir login.
 
-## Estrutura adicionada
-
-- `src/services/loyaltyCore.js`: regras, leitura, sincronização de créditos e resgate.
-- `src/services/loyalty.js`: adaptadores de armazenamento, sessão, veículos e geração de ID.
-- `src/context/LoyaltyContext.js`: estado compartilhado e sincronização ao mudar o exemplo.
-- `src/components/LoyaltyUI.js`: saldo, progresso e estados de carregamento/erro.
-- `app/points-history.js`: extrato.
-- `app/my-redemptions.js`: comprovantes.
-- `tests/loyalty.test.mjs`: testes das regras e das falhas.
-
-## Verificação realizada
-
-43 testes passaram: 14 de autenticação, 13 de veículos e 16 de fidelidade. Um teste adicional do adaptador de senha ficou ignorado porque a dependência não está instalada no ambiente de preparação; deve executar após a instalação no computador do usuário.
-
-Foram verificados créditos únicos, saldos, níveis, concorrência de resgates, repetição da requisição, saldo insuficiente, troca/reinclusão do exemplo, contas separadas, sessão, falhas de gravação e dados corrompidos. Os 29 arquivos JavaScript passaram pela análise de sintaxe e referências locais. Os JSONs foram lidos por parser.
-
-Os testes usam adaptadores locais em memória. As etapas anteriores foram testadas pelo usuário no Expo, mas esta nova interface ainda precisa do teste no aparelho. Não foi gerado APK nesta entrega.
-
-## Documentação e próximos passos
-
-- [Etapa 1: contas](docs/etapa1-contas.md)
-- [Etapa 2: veículos e VIN Share](docs/etapa2-veiculos.md)
-- [Créditos e prints históricos](docs/README-sprint-anterior.md)
-
-Depois da validação: consulta FIPE por versão/ano, acabamento visual, geração e teste do APK, prints finais e vídeo de até dois minutos. Preferências ainda não enviam notificações. O README final deverá incluir os links e evidências reais da versão entregue.
