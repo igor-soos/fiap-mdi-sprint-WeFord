@@ -80,89 +80,33 @@ Os cupons não têm validade comercial. O aplicativo não realiza agendamentos, 
 
 ### 1. Login
 
-Entrada com e-mail e senha, mensagens de validação e acesso ao cadastro.
-
-**Print:** inserir tela de login.
-<!-- <img src="docs/screenshots/login.png" alt="Tela de login do WeFord" width="300" /> -->
+<img src="IMAGENSAPP/Login.jpg" alt="Tela de login do WeFord" width="300" />
 
 ### 2. Cadastro
 
-Criação de conta com nome, e-mail, telefone, senha e confirmação de senha.
-
-**Print:** inserir formulário de cadastro.
-<!-- <img src="docs/screenshots/cadastro.png" alt="Cadastro de conta" width="300" /> -->
+<img src="IMAGENSAPP/Cadastro.jpg" alt="Cadastro de conta" width="300" />
 
 ### 3. Home
 
-Saudação personalizada, resumo da fidelidade, veículo principal, última manutenção disponível e atalhos.
-
-**Print:** inserir tela inicial; se necessário, adicionar uma segunda captura da parte inferior.
-<!-- <img src="docs/screenshots/home.png" alt="Tela inicial do WeFord" width="300" /> -->
+<img src="IMAGENSAPP/Home.jpg" alt="Tela inicial do WeFord" width="300" />
 
 ### 4. Veículos
 
-Lista de veículos associados à conta, seleção do principal e ações de inclusão e remoção.
+<img src="IMAGENSAPP/Veiculos1.jpg" alt="Veículos" width="300" />
+<img src="IMAGENSAPP/Veiculos2.jpg" alt="Veículos" width="300" />
+<img src="IMAGENSAPP/Veiculos3.jpg" alt="Veículos" width="300" />
 
-**Print:** inserir lista de veículos.
-<!-- <img src="docs/screenshots/veiculos.png" alt="Veículos da conta" width="300" /> -->
+### 5. Prêmios
 
-### 5. Cadastro manual e seleção de exemplo
+<img src="IMAGENSAPP/Premios.jpg" alt="Saldo e nível de fidelidade" width="300" />
 
-Formulário de modelo, ano, VIN e quilometragem opcional; seleção dos veículos do catálogo demonstrativo.
+### 6. Ofertas
 
-**Prints:** inserir formulário e seleção de exemplo.
-<!-- <img src="docs/screenshots/cadastro-veiculo.png" alt="Cadastro manual de veículo" width="300" /> -->
-<!-- <img src="docs/screenshots/exemplos.png" alt="Seleção de veículo de exemplo" width="300" /> -->
+<img src="IMAGENSAPP/Ofertas.jpg" alt="Ofertas disponíveis" width="300" />
 
-### 6. Histórico de manutenção
+### 7. Perfil
 
-Atendimentos do exemplo selecionado, apresentados com data, quilometragem e referências do serviço.
-
-**Print:** inserir histórico da Ranger ou de outro exemplo.
-<!-- <img src="docs/screenshots/historico-veiculo.png" alt="Histórico de manutenção" width="300" /> -->
-
-### 7. Prêmios
-
-Saldo, nível atual e progresso para o próximo nível de fidelidade.
-
-**Print:** inserir tela de prêmios.
-<!-- <img src="docs/screenshots/premios.png" alt="Saldo e nível de fidelidade" width="300" /> -->
-
-### 8. Ofertas
-
-Catálogo de benefícios, custo em pontos e disponibilidade de resgate.
-
-**Print:** inserir catálogo de ofertas.
-<!-- <img src="docs/screenshots/ofertas.png" alt="Ofertas disponíveis" width="300" /> -->
-
-### 9. Confirmação de resgate
-
-Confirmação do benefício e do custo antes de descontar os pontos.
-
-**Print:** inserir estado de confirmação do resgate.
-<!-- <img src="docs/screenshots/confirmacao-resgate.png" alt="Confirmação de resgate" width="300" /> -->
-
-### 10. Extrato de pontos
-
-Histórico de créditos por manutenção e débitos por resgate.
-
-**Print:** inserir extrato com pelo menos um crédito e um resgate.
-<!-- <img src="docs/screenshots/extrato.png" alt="Extrato de pontos" width="300" /> -->
-
-### 11. Meus resgates
-
-Benefícios resgatados e seus comprovantes fictícios.
-
-**Print:** inserir comprovante de benefício resgatado.
-<!-- <img src="docs/screenshots/resgates.png" alt="Meus resgates e comprovantes" width="300" /> -->
-
-### 12. Perfil
-
-Dados da conta, veículo principal, preferências e logout.
-
-**Print:** inserir tela de perfil.
-<!-- <img src="docs/screenshots/perfil.png" alt="Perfil do usuário" width="300" /> -->
-
+<img src="IMAGENSAPP/Perfil.jpg" alt="Perfil do usuário" width="300" />
 ## Stack e justificativas
 
 | Tecnologia | Aplicação no projeto |
